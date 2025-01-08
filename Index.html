@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pateras Casino</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Pateras Casino</h1>
+
+    <!-- Sección de inicio de sesión -->
+    <div id="accountSection">
+        <h2>Iniciar sesión con Google</h2>
+        <!-- Botón de inicio de sesión de Google -->
+        <div id="google-signin-button"></div>
+    </div>
+
+    <!-- Sección de juegos (se oculta hasta que el usuario inicie sesión) -->
+    <div id="games" style="display:none;">
+        <h2>Bienvenido, <span id="username"></span></h2>
+        <p id="coins">Monedas: 100</p>
+        <button onclick="spinWheel()">Rueda de la Fortuna</button>
+    </div>
+
+    <script src="https://accounts.google.com/gsi/client" async defer></script>
+    <script src="script.js"></script>
+</body>
+</html>
