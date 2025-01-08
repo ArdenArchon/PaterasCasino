@@ -1,0 +1,36 @@
+/* Estilos básicos */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 3em;
+    color: #333;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    margin: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+#google-signin-button {
+    margin-top: 20px;
+}
+
+/* Estilos de juegos */
+#coins {
+    font-size: 1.5em;
+    margin-top: 20px;
+}
